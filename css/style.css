@@ -760,7 +760,7 @@ header .search {
     }
 
     .main .main-text {
-        width: 100%;
+        width: 85%;
         margin: 28px;
         margin-top: 70%;
         z-index: 1;
@@ -793,6 +793,48 @@ header .search {
         width: 100%;
     }
 
+    .about .about-section {
+        margin: 46px 0;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .about .about-section .about-bg {
+        display: none;
+    }
+
+    .about .about-section .about-info {
+        gap: 20px;
+    } 
+
+    .about .about-section .about-info-left {
+        text-align: left;
+    }
+
+    .about .about-info-div .txt {
+        display: none;
+    }
+
+    .about .about-info-left .about-info-middle {
+        margin-right: 0;
+    }
+
+    .about .about-info-right .about-info-middle {
+        margin-left: 0;
+    }
+
+    .about .about-info-left .about-info-div-row {
+        justify-content: left;
+    }
+
+    .about .about-info-div-row .icon {
+        display: none;
+    }
+
+    .about .about-info-div-row .icon-left {
+        display: block;
+    }
+
     /*Adopt*/
     .adopt {
         margin: 38px 10px;
@@ -811,6 +853,76 @@ header .search {
         width: 100%;
     }
 
+    .dogs .slider {
+        width: 800px;
+        overflow: hidden;
+    }
+    
+    .dogs .slides {
+        width: 600%;
+        height: 450px;
+    }
+    
+    .dogs .slide {
+        width: 800px;
+        position: relative;
+        transition: 2s;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 25px;
+    }
+    
+    .dogs .slide .slide-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+        gap: 15px;
+        background-color: #EEECED;
+        border-radius: 5px;
+        box-shadow: 6px 12px 8px rgba(0, 0, 0, 0.2);
+    }
+    
+    .dogs .slide-container .container-btn {
+        padding: 10px 20px;
+        border: 2px solid #E47C02;
+        border-radius: 25px;
+        cursor: pointer;
+        background-color: transparent;
+        transition: 300ms;
+    }
+    
+    .dogs .manual-navigation {
+        position: absolute;
+        width: inherit;
+        margin-top: -10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .dogs .manual-btn {
+        border: 2px solid #E47C02;
+        height: 40px;
+        width: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50%;
+        cursor: pointer;
+        transition: 400ms;
+    }
+    
+    .dogs #radio1:checked~.first {
+        margin-left: 5.5%;
+    }
+    
+    .dogs #radio2:checked~.first {
+        margin-left: 0%;
+    }
+
     /*Contact*/
     .contact .contact-bg {
         height: 150px;
@@ -818,10 +930,37 @@ header .search {
 
     .contact .contact-text {
         width: 100%;
-        margin: 0 38px;
+        padding: 0 38px;
     }
 
-    /*Donate*/
+    .contact .contact-div {
+        flex-direction: column;
+        gap: 35px;
+    }
+
+    .contact .contact-dec {
+        display: none;
+    }
+
+    /*Book*/
+    .book .txt {
+        width: 100%;
+    }
+
+    .book .book-section-img {
+        display: none;
+    }
+
+    .book form {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .book form field {
+        gap: 5px;
+    }
+
+    /*Donation*/
     .donation {
         flex-direction: column;
         gap: 0px;
