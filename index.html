@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/style.css">
+        <title>Landing Page</title>
+    </head>
+
+    <body>
+        <!--Header-->
+        <header>
+            <a href="">
+                <h1 class="logo">Adote.</h1>
+            </a>
+            <nav id="nav">
+                <button aria-label="Abrir Menu" id="btn-mobile" aria-haspopup="true" aria-controls="menu"
+                    aria-expanded="false">Menu
+                    <span id="hamburger"></span>
+                </button>
+                <ul id="menu" role="menu">
+                    <li><a class="active" href="">Início</a></li>
+                    <li><a href="#dogs">Cachorros</a></li>
+                    <li><a href="#about">Sobre</a></li>
+                    <li><a href="#contact">Contatos</a></li>
+                </ul>
+            </nav>
+            <div class="header-end">
+                <a href="#donation">
+                    <h1 class="donate">Faça uma doação</h1>
+                </a>
+                <img class="search" src="assets/search-outline.svg" alt="search-outline.svg">
+            </div>
+        </header>
+
+        <!--Main-->
+        <main>
+            <!--Main-->
+            <section class="main">
+                <section class="main-text">
+                    <h1 class="title">As melhores raças são aquelas que necessitam de ajuda.</h1>
+                    <p class="txt">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus veritatis excepturi nobis placeat, nesciunt recusandae cum quos. Quibusdam eligendi ratione dolorum cumque non ipsam illum ullam ducimus inventore.</p>
+                    <a href="">
+                        <h4 class="main-btn">Transforme uma vida&ensp;→</h4>
+                    </a>
+                </section>
+
+                <img src="assets/main-bg.png" alt="main-bg.png">
+            </section>
+
+            <!--About Us-->
+            <section class="about" id="about">
+                <div class="about-text">
+                    <h1 class="title">Sobre nós</h1>
+                    <img class="dog-icon" src="assets/dog-icon1.png" alt="dog-icon1.png">
+                    <p class="txt">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Hic veniam minus accusantium explicabo id laborum animi sit pariatur.</p>
+                </div>
+
+                <section class="about-section">
+                    <div class="about-info about-info-left">
+                        <div class="about-info-div">
+                            <div class="about-info-div-row">
+                                <h2 class="subtitle">Treinamento de Filhotes</h2>
+                                <img class="icon" src="assets/paw-outline.svg" alt="paw-outline.svg">
+                            </div>
+                            <p class="txt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo iusto tempora odio aspernatur, atque blanditiis iure reprehenderit minus.</p>
+                        </div>
+
+                        <div class="about-info-div about-info-middle">
+                            <div class="about-info-div-row">
+                                <h2 class="subtitle">Higiene Animal</h2>
+                                <img class="icon" src="assets/cut-outline.svg" alt="cut-outline.svg">
+                            </div>
+                            <p class="txt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo iusto tempora odio aspernatur, atque blanditiis iure reprehenderit minus.</p>
+                        </div>
+
+                        <div class="about-info-div">
+                            <div class="about-info-div-row">
+                                <h2 class="subtitle">Suplementação Adequada</h2>
+                                <img class="icon" src="assets/flash-outline.svg" alt="flash-outline.svg">
+                            </div>
+                            <p class="txt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo iusto tempora odio aspernatur, atque blanditiis iure reprehenderit minus.</p>
+                        </div>
+                    </div>
+
+                    <img class="about-bg" src="assets/about-bg.png" alt="about-bg.png">
+
+                    <div class="about-info about-info-right">
+                        <div class="about-info-div">
+                            <div class="about-info-div-row">
+                                <img class="icon" src="assets/thermometer-outline.svg" alt="thermometer-outline.svg">
+                                <h2 class="subtitle">Alojamento Planejado</h2>
+                            </div>
+                            <p class="txt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo iusto tempora odio aspernatur, atque blanditiis iure reprehenderit minus.</p>
+                        </div>
+
+                        <div class="about-info-div about-info-middle">
+                            <div class="about-info-div-row">
+                                <img class="icon" src="assets/fitness-outline.svg" alt="fitness-outline.svg">
+                                <h2 class="subtitle">Acompanhamento Médico</h2>
+                            </div>
+                            <p class="txt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo iusto tempora odio aspernatur, atque blanditiis iure reprehenderit minus.</p>
+                        </div>
+
+                        <div class="about-info-div">
+                            <div class="about-info-div-row">
+                                <img class="icon" src="assets/bandage-outline.svg" alt="bandage-outline.svg">
+                                <h2 class="subtitle">Cuidados Médicos</h2>
+                            </div>
+                            <p class="txt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo iusto tempora odio aspernatur, atque blanditiis iure reprehenderit minus.</p>
+                        </div>
+                    </div>
+                </section>
+            </section>
+
+            <!--Adopt-->
+            <section class="adopt">
+                <img class="adopt-bg" src="assets/adopt-bg.png" alt="adopt-bg.png">
+                <button class="btn">Adote agora mesmo</button>
+            </section>
+
+            <!--Dogs-->
+            <section class="dogs" id="dogs">
+                <div class="dogs-text">
+                    <h1 class="title">Nossos amigos que estão a procura de um lar</h1>
+                </div>
+                <!--Slider-->
+                <div class="slider">
+                    <div class="slides">
+                        <input type="radio" name="radio-btn" id="radio1">
+                        <input type="radio" name="radio-btn" id="radio2">
+                        <input type="radio" name="radio-btn" id="radio3">
+                        <input type="radio" name="radio-btn" id="radio4">
+                        <div class="slide first">
+                            <div class="slide-container">
+                                <img src="assets/dogs-slider-img1.png" alt="dogs-slider-img1.png">
+                                <h2 class="subtitle">Mel</h2>
+                                <button class="container-btn">Saiba mais</button>
+                            </div>
+                            <div class="slide-container">
+                                <img src="assets/dogs-slider-img2.png" alt="dogs-slider-img2.png">
+                                <h2 class="subtitle">Theo</h2>
+                                <button class="container-btn">Saiba mais</button>
+                            </div>
+                            <div class="slide-container">
+                                <img src="assets/dogs-slider-img3.png" alt="dogs-slider-img3.png">
+                                <h2 class="subtitle">Billy</h2>
+                                <button class="container-btn">Saiba mais</button>
+                            </div>
+                        </div>
+                        <div class="slide">
+                            <div class="slide-container">
+                                <img src="assets/dogs-slider-img4.png" alt="dogs-slider-img4.png">
+                                <h2 class="subtitle">Bruce</h2>
+                                <button class="container-btn">Saiba mais</button>
+                            </div>
+                            <div class="slide-container">
+                                <img src="assets/dogs-slider-img5.png" alt="dogs-slider-img5.png">
+                                <h2 class="subtitle">Tobias</h2>
+                                <button class="container-btn">Saiba mais</button>
+                            </div>
+                            <div class="slide-container">
+                                <img src="assets/dogs-slider-img6.png" alt="dogs-slider-img6.png">
+                                <h2 class="subtitle">Mike</h2>
+                                <button class="container-btn">Saiba mais</button>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="manual-navigation">
+                        <label for="radio1" class="manual-btn">←</label>
+                        <label for="radio2" class="manual-btn">→</label>
+                    </div>
+                </div>
+            </section>
+
+            <!--Contact-->
+            <section id="contact" class="contact">
+                <div class="contact-bg"></div>
+                <div class="contact-text">
+                    <h1 class="title">Entre em contato</h1>
+                    <img class="dog-icon" src="assets/dog-icon2.png" alt="dog-icon2.png">
+                    <p class="txt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis reiciendis eveniet voluptas veniam dicta totam iure repellat.</p>
+                </div>
+
+                <div class="contact-div">
+                    <div class="contact-div-info">
+                        <img src="assets/contact-phone-img.png" alt="contact-phone-img.png">
+                        <h2 class="subtitle">Telefone</h2>
+                        <p class="txt">+XX XX XXXXX XXXX</p>
+                    </div>
+
+                    <div class="contact-dec"></div>
+
+                    <div class="contact-div-info">
+                        <img src="assets/contact-address-img.png" alt="contact-address-img.png">
+                        <h2 class="subtitle">Endereço</h2>
+                        <p class="txt">Lorem ipsum dolor - elit, sit amet consectetur adipisicing</p>
+                    </div>
+
+                    <div class="contact-dec"></div>
+
+                    <div class="contact-div-info">
+                        <img src="assets/contact-email-img.png" alt="contact-email-img.png">
+                        <h2 class="subtitle">Email</h2>
+                        <p class="txt">example@gmail.com</p>
+                    </div>
+                </div>
+            </section>
+
+            <!--Book-->
+            <section class="book">
+                <h1 class="title">Agende uma visita</h1>
+                <img class="dog-icon" src="assets/dog-icon3.png" alt="dog-icon3.png">
+                <p class="txt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur odit facere eaque nisi id fuga? Expedita architecto vero rem nisi hic debitis natus voluptate.</p>
+
+                <section class="book-section">
+                    <div class="book-section-visit">
+                        <h1 class="title">Agende agora mesmo sua vinda</h1>
+                        <h2 class="subtitle">Quando você pretende nos visitar?</h2>
+                        <form>
+                            <field>
+                                <label>Selecione a data</label>
+                                <input type="date" name="date" required>
+                            </field>
+
+                            <field>
+                                <label>Selecione o horário</label>
+                                <input type="time" name="time" value="09:00" required>
+                            </field>
+                        </form>
+                        <button class="book-btn">
+                            <p>PRÓXIMO PASSO</p>
+                            <img src="assets/carret-right.svg" alt="carret-right.svg">
+                        </button>
+                    </div>
+
+                    <div class="book-section-img">
+                        <img src="assets/book-img.png" alt="book-img.png">
+                    </div>
+                </section>
+            </section>
+
+            <!--Donation-->
+            <section class="donation" id="donation">
+                <img class="donation-img" src="assets/donation-img.png" alt="donation-img.png">
+
+                <div class="donation-text">
+                    <h1 class="title">Você também pode fazer uma doação</h1>
+                    <h2 class="subtitle">Conta Bancária / Pix</h2>
+                    <div class="donation-div">
+                        <div class="donation-container">
+                            <img src="assets/card-outline.svg" alt="card-outline.svg">
+                            <h2 class="subtitle">1234 1234 1234 1234 1234</h2>
+                        </div>
+
+                        <div class="donation-container">
+                            <img src="assets/wallet-outline.svg" alt="wallet-outline.svg">
+                            <h2 class="subtitle">123 123 123 - 12</h2>
+                        </div>
+                    </div>
+                    <p class="txt">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vel excepturi totam doloribus ipsam, reprehenderit repellendus at rem eveniet eum explicabo error saepe. Praesentium accusamus, cum porro similique consequatur veniam necessitatibus?</p>
+                </div>
+
+                <img class="donation-img donation-img-responsive" src="assets/donation-img.png" alt="donation-img.png">
+            </section>
+        </main>
+
+        <!--Script Reference-->
+        <script src="script.js"></script>
+
+        <!--Footer-->
+        <footer></footer>
+    </body>
+</html>
