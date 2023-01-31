@@ -297,7 +297,7 @@ header .search {
 /*Slider*/
 .dogs .slider {
     width: 800px;
-    overflow: hidden;
+    overflow-x: hidden;
 }
 
 .dogs .slides {
@@ -824,11 +824,8 @@ header .search {
     }
 
     .about .about-info-left .about-info-div-row {
+        flex-direction: row-reverse;
         justify-content: left;
-    }
-
-    .about .about-info-div-row .icon {
-        display: none;
     }
 
     .about .about-info-div-row .icon-left {
@@ -958,6 +955,10 @@ header .search {
 
     .book form field {
         gap: 5px;
+    }
+
+    .book form field input {
+        width: 100%;
     }
 
     /*Donation*/
