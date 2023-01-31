@@ -387,6 +387,11 @@ header .search {
     margin-left: -50%;
 }
 
+/*Dogs Responsive*/
+.dogs .dogs-responsive {
+    display: none;
+}
+
 /*Contact*/
 .contact {
     margin: 82px 0;
@@ -642,7 +647,146 @@ header .search {
 }
 
 /*Responsive Tablet*/
-@media screen and (min-width: 767px) and (max-width: 1024px) {}
+@media screen and (min-width: 767px) and (max-width: 1024px) {
+    /*Universal*/
+    .title {
+        font-size: 38px;
+    }
+
+    .txt {
+        font-size: 18px;
+    }
+
+    .btn {
+        padding: 15px 25px;
+        font-size: 18px;
+    }
+
+    /*Header*/
+    header .donate {
+        display: none;
+    }
+
+    /*Main*/
+    .main {
+        flex-direction: column-reverse;
+        height: max-content;
+    }
+
+    .main .main-text {
+        width: 90%;
+        margin: 78px 38px;
+        margin-top: 45%;
+        z-index: 1;
+    }
+
+    .main img {
+        position: absolute;
+        top: 70px;
+        right: 0px;
+        width: 650px;
+        filter: brightness(80%);
+    }
+
+    /*About*/
+    .about {
+        margin: 38px;
+    }
+
+    .about .about-text {
+        width: 70%;
+    }
+
+    .about .about-bg {
+        display: none;
+    }
+
+    .about .about-section {
+        margin: 68px 10px;
+        gap: 48px;
+    }
+
+    .about .about-info-left .about-info-middle {
+        margin-right: 0;
+    }
+    
+    .about .about-info-right .about-info-middle {
+        margin-left: 0;
+    }
+
+    /*Adopt*/
+    .adopt .adopt-bg {
+        width: 90%;
+    }
+
+    /*Dogs*/
+    .dogs .dogs-text {
+        width: 80%;
+    }
+
+    /*Slider*/
+    .dogs .slider {
+        width: 700px;
+    }
+
+    .dogs .slides {
+        height: 400px;
+    }
+
+    .dogs .slide {
+        width: 700px;
+        gap: 20px;
+    }
+
+    .dogs .slide .slide-container {
+        padding: 15px;
+    }
+
+    .dogs .slide-container img {
+        width: 180px;
+    }
+
+    .dogs .manual-btn {
+        height: 50px;
+        width: 50px;
+    }
+
+    .dogs .manual-navigation {
+        margin-top: 0px;
+    }
+
+    /*Contact*/
+    .contact .contact-text {
+        width: 80%;
+        margin-bottom: 20px;
+    }
+
+    /*Book*/
+    .book .txt {
+        width: 80%;
+    }
+
+    .book .book-section {
+        gap: 25px;
+    }
+
+    .book .book-section-img img {
+        width: 300px;
+    }
+
+    /*Donation*/
+    .donation {
+        gap: 25px;
+    }
+
+    .donation .donation-img {
+        width: 320px;
+    }
+
+    .donation .donation-text {
+        width: 100%;
+    }
+}
 
 /*Responsive Smartphone*/
 @media screen and (max-width: 767px) {
@@ -843,7 +987,7 @@ header .search {
 
     /*Dogs*/
     .dogs {
-        margin: 78px 36px;
+        margin: 78px 20px;
     }
 
     .dogs .dogs-text {
@@ -852,6 +996,36 @@ header .search {
 
     .dogs .slider {
         display: none;
+    }
+
+    /*Dogs Responsive*/
+    .dogs .dogs-responsive {
+        display: flex;
+        flex-direction: column;
+        margin-top: 28px;
+        gap: 28px;
+    }
+
+    .dogs .dogs-responsive .dogs-responsive-div {
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+    }
+
+    .dogs .dogs-responsive-div .slide-container {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        background-color: #EEECED;
+        border-radius: 10px;
+        padding: 15px;
+    }
+
+    .dogs .dogs-responsive-div .slide-container img {
+        width: 120px;
     }
 
     /*Contact*/
